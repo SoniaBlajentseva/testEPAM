@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="stayl.css">
+    <script src="https://use.fontawesome.com/e56f2e2a4f.js"></script>
+
+</head>
+
+<body>
+    <h1>Книжная полка</h1>
+    <button class="button-book" id="show">Добавить книгу</button>
+    <div class="container" id="lib">
+
+    </div>
+
+<!-- Окно добавления -->
+    <dialog id="window">
+        <form action="#" id="bookForm">
+            <div class="row">
+                <span>Название: </span>
+                <input type="text" name="title" id="title">
+            </div>
+            <div class="row">
+                <span>Автор: </span>
+                <input type="text" name="author" id="author">
+            </div>
+            <div class="row">
+                <span>Год: </span>
+                <input type="text" name="year" id="year">
+            </div>
+            <div class="row">
+                <span>Изображение: </span>
+                <input type="text" name="urlPhoto" id="urlPhoto">
+            </div>
+        </form>
+        <button id="sub">Добавить</button>
+        <button id="cancelBtn">Отмена</button>
+    </dialog>
+<!-- Окно редактирования -->
+    <dialog id="windowEdit">
+        <form action="#" id="bookFormEdit">
+            <div class="row">
+                <span>Название: </span>
+                <input type="text" name="title" id="titleEdit">
+            </div>
+            <div class="row">
+                <span>Автор: </span>
+                <input type="text" name="author" id="authorEdit">
+            </div>
+            <div class="row">
+                <span>Год: </span>
+                <input type="text" name="year" id="yearEdit">
+            </div>
+            <div class="row">
+                <span>Изображение: </span>
+                <input type="text" name="urlPhoto" id="urlPhotoEdit">
+            </div>
+        </form>
+        <button id="editBtn">Редактировать</button>
+        <button id="cancelEditBtn">Отмена</button>
+    </dialog>
+    <script src="script.js"></script>
+</body>
+
+</html>

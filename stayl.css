@@ -1,0 +1,152 @@
+body {
+    position: relative;
+}
+
+h3,
+h4,
+h5 {
+    margin: 0px;
+}
+
+h4,
+h5 {
+    font-weight: normal;
+}
+
+img {
+    width: 123px;
+    height: 160px;
+}
+
+.button-book {
+    border: 1px solid rgb(79 157 193);
+    border-radius: 50px;
+    width: 155px;
+    height: 35px;
+    text-align: center;
+    background-color: rgb(79 157 193);
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+.button-book:hover {
+    border: none;
+    background-color: rgb(250, 250, 250);
+    color: rgb(0 0 0);
+    box-shadow: 5px 2px 12px 3px rgb(143 143 143);
+}
+
+.container {
+    margin: 15px;
+    width: 580px;
+}
+
+.book {
+    display: flex;
+    margin-bottom: 25px;
+    border-bottom: 2px dotted black;
+    padding-bottom: 25px;
+}
+
+.picture {
+    margin-right: 20px;
+    box-shadow: 3px 5px 7px 5px rgb(198 198 198);
+    border: 1px solid #e0e0e0;
+}
+
+.name-book {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 430px;
+    align-items: end;
+}
+
+.fa-pencil {
+    border: 1px solid #497893;
+    border-radius: 50px;
+    color: rgb(235, 211, 241);
+    background-color: rgb(99, 145, 189);
+    width: 60px;
+    height: 40px;
+    margin-bottom: 10px;
+}
+.fa-pencil:hover {
+    border: 1px solid #45a74b;
+    background-color: rgb(43, 197, 112);
+    color: rgb(255, 255, 255);
+    width: 70px;
+    
+}
+
+.fa-trash-o {
+    border: 1px solid #d1b6eb;
+    border-radius: 50px;
+    color: rgb(61, 120, 175);
+    background-color: rgb(235, 211, 241);
+    width: 60px;
+    height: 40px;
+}
+.fa-trash-o:hover {
+    border: 1px solid #991e1e;
+    background-color: rgb(221, 0, 0);
+    color: rgb(255, 255, 255);
+    width: 70px;
+}
+
+#bookForm, #bookFormEdit {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#bookForm .row, #bookFormEdit .row {
+    display: flex;
+    border-color: rgb(0, 0, 0);
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+#bookForm input, #bookFormEdit input {
+    margin-bottom: 10px;
+    width: 60%; 
+}
+
+#bookForm input[type="submit"], #bookFormEdit input[type="submit"] {
+    width: 50%;
+}
+
+
+#window, #windowEdit {
+    border: rgb(0, 0, 0) solid;
+    position: absolute;
+    top: 44vh;
+    width: 35%;
+}
+#sub {
+    border: 1px solid #000000;
+    color: rgb(0, 0, 0);
+    background-color: rgb(246, 248, 250);
+    height: 20px;
+}
+#sub:hover{
+    cursor: pointer;
+}
+#cancelBtn{
+    border: 1px solid #000000;
+    color: #050505;
+    background-color: rgb(255, 197, 197);
+    height: 20px;
+}
+#cancelBtn:hover{
+    cursor: pointer;
+}
